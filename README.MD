@@ -1,50 +1,60 @@
 # 🧠 Smart Text Analysis & Named Entity Recognition
 
-A Natural Language Processing (NLP) web application built with **Python, SpaCy, TextBlob, and Streamlit**.
+A Natural Language Processing (NLP) web application built using **Python, SpaCy, TextBlob, and Streamlit**.
 
-The application allows users to enter text or upload documents and performs multiple NLP tasks such as **tokenization, Part-of-Speech (POS) tagging, lemmatization, Named Entity Recognition (NER), sentiment analysis, word-frequency analysis, and visualization**.
+The application analyzes text and uploaded documents using various NLP techniques and provides useful visual insights.
 
 ---
 
 ## 🚀 Features
 
 ### 📝 Text Analysis
-Enter text directly into the application and analyze it using NLP techniques.
-
 - Tokenization
 - Stop-word identification
 - Part-of-Speech (POS) tagging
 - Lemmatization
 - Word frequency analysis
-- Named Entity Recognition
+- Named Entity Recognition (NER)
 - Sentiment analysis
 
-### 📂 File-Based NLP Analysis
+### 📂 File-Based Analysis
 
-Upload documents and analyze their content.
-
-Supported formats:
+Upload and analyze:
 
 - `.txt`
 - `.pdf`
 - `.docx`
 
-The application extracts the text from the uploaded document and performs the same NLP analysis.
+### 🏷️ Named Entity Recognition
 
-### 🏷️ Named Entity Recognition (NER)
-
-The application identifies important entities from text using **SpaCy**.
-
-Examples include:
+Identifies entities such as:
 
 - 👤 PERSON
 - 🏢 ORGANIZATION
 - 📍 LOCATION / GPE
 - 📅 DATE
 - 💰 MONEY
-- 📊 Other supported entities
 
-Example:
+### 📊 Visualizations
 
-```text
-Apple was founded by Steve Jobs in California.
+- Word frequency charts
+- POS distribution
+- Word clouds
+- Interactive visualizations
+
+---
+
+## 🛠️ Technologies Used
+
+- **Python**
+- **Streamlit**
+- **SpaCy**
+- **TextBlob**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
+- **Plotly**
+- **NLTK**
+- **WordCloud**
+
+The main objective of this project is to provide an interactive platform for performing text analysis and Named Entity Recognition using Natural Language Processing techniques
